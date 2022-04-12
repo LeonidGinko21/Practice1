@@ -6,7 +6,7 @@ int main()
     int A;
     string apple = "яблок";
     cout<<"Введите кол-во яблок:\n";
-    cin >> k;
+    cin >> A;
     {
         if ((A==1) || (A % 10 == 1)) {
             apple = apple +"о";

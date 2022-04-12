@@ -1,0 +1,17 @@
+#include <iostream>
+#include "windows.h"
+using namespace std;
+int main()
+{
+    int number1;
+    cout << "Enter a number to countdown:\n";
+    cin >> number1;
+    while (number1 >=1)
+    {
+        cout << number1 << "\n";
+        number1 = number1 - 1;
+        Sleep(1000);
+    }
+    cout << "The countdown is over!\n";
+    return 0;
+}
